@@ -1,0 +1,33 @@
+lsb_ release -a 
+
+version de linux
+
+uname -a
+
+version del kernel
+
+ls para ver archivos dentro de la carpeta
+
+Mkdir crear carpeta
+
+Cd para entrar a carpeta
+
+Change directory
+
+Imprimir completa de la terminal
+
+cd .. volver a la ultima carpeta
+
+cd es igual a volver a home
+
+nano para cambiar textgo
+
+ps -aux ver comandos corriendo
+
+P ID es un identificador unico en un proceso
+
+ps - 
+
+kill matar procesos
+
+pstree ver procesos
