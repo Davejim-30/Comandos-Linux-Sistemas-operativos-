@@ -1,33 +1,95 @@
-lsb_ release -a 
 
-version de linux
+Este comando nos permite descargar archivos de internet.
 
-uname -a
+curl- 
 
-version del kernel
+Nos permite transferir data de un o hacia un servidor usando cualquiera de los protocolos de red (FTP,IMAP,HTTP,etc...)
 
-ls para ver archivos dentro de la carpeta
+echo 
 
-Mkdir crear carpeta
+Este comando es el equivalente a print dentro de bash programming
 
-Cd para entrar a carpeta
+Zenitty 
 
-Change directory
+Este es un programa que nos permite mostrar dialogos de Shell en una interfaz grafica.
 
-Imprimir completa de la terminal
+--info-- 
 
-cd .. volver a la ultima carpeta
+imprimir con interfaz de usuario .
 
-cd es igual a volver a home
+--password --
 
-nano para cambiar textgo
+Agregar contraseña. 
 
-ps -aux ver comandos corriendo
+Echo $shell 
 
-P ID es un identificador unico en un proceso
+Este comando sirve para ver el lo que tenemos dentro de un script.
 
-ps - 
+./script.sh
 
-kill matar procesos
+bash script.sg 
 
-pstree ver procesos
+Este comando nos permite correr un script.
+
+chmod +xfile name 
+
+Este comando nos permite darle un nombre a un permiso.
+
+chmod 755 nombre 
+
+Sudo passwd root 
+
+Este comando nos permite cambiar la contraseña del usuario root
+
+Nota:/etc/password  aca se guardan las contraseñas , si le hacemos cat podemos ver info de donde esta guardad la contraseña
+
+echo -n "Hello World" | md5sum es un algoritmo de hash
+----------------------------------------------------------------------------------------------------------------------------------
+Docker es un software que nos permite activar servicios de OS virtuales predeterminados por medio de contenedores
+----------------------------------------------------------------------------------------------------------------------------------
+
+Para instalar docker.
+
+Sudo apt install docket.io
+
+Debemos de correr la aplicacion dentro de linux.
+
+Sudo systemctl start docker  
+
+Inicia docker.
+
+Sudo systemctl enable docker
+
+Hacer que docker inicie cuando la maquina enciende .
+
+Sudo docker images 
+
+Este comando nos permite ver cuales imagenes hay en docker.
+
+Sudo docker search /OS :
+
+Este comando nos permite ver imagenes del sistema.
+
+Sudo docker pull 
+
+Este comando nos permite instalar un contendor.
+
+Sudo run -it 
+
+Este comando nos permite correr la imagen de un contendor.
+
+sudo docker ps -a 
+
+Este comando nos permite ver los contenedores que existen dentro del sistema y ver la información del contenedor.
+
+docker commit -m 
+
+Este comando nos permite guardan un contenedor en un lugar específico.
+
+sudo docker push
+
+Este comando nos permite subir un contedor a la página de docker.
+
+sudo docker container rm 
+
+Este comando nos permite borrar contenedores.
