@@ -1,3 +1,139 @@
+----------------------------------------------------------------------------------------------------------------------
+Comandos linux generales Linux:
+----------------------------------------------------------------------------------------------------------------------
+lsb_ release -a 
+
+Este comando nos sirve para ver la version de linux.
+
+uname -a
+
+Este comando nos sirve para ver la version del kernel.
+
+ls 
+
+se utiliza para ver archivos dentro de la carpeta.
+
+Mkdir 
+
+Este comando se utiliza para crear carpeta.
+
+Cd (destination) (Change directory)
+
+Este comando nos sirve para cambiar de directorio.
+
+Nota: CD por si solo va a volver al directorio de home.
+
+nano
+
+Nano es un editor de texto de linux .
+
+ps -aux 
+
+Est comando nos permite ver los comandos corriendo.
+
+Nota P ID (o process id) es un identificador unico en un proceso.
+
+kill 
+
+Tal y como su nombre los sugiere este comando sirve para matar procesos.
+
+pstree 
+
+Este comando nos permite ver proceso ordenados de una forma peliculiar.
+
+sudo dmidecode - - type 17 : 
+
+Este comando nos permite ver memoria ram del computador. 
+
+cat /proc /meminfo 
+
+Este es otro comando para ver la memoria ram del computador.
+
+cat [OPTION] [FILE] (concatenate)
+
+Este es un comando con usos varios por ejemplo , este nos permite crear uno o varios documentos y tambien ver lo que hay dentro de un file.
+
+Nota:Agregando # cat >  podemos crear un file.
+
+meminfo (memory info)
+
+Nos permite ver los procesos que suceden dentro de la memoria  (memoria libre, swap, etc...)
+
+du -h  (disk usage)
+
+Nos permite ver el numero de bloques usados por archivos en el sistema.
+
+stat 
+
+Este comando nos enseña un registro dentro de un archivo (por ejemplo: El tamaño del archivo, los permisos, cambios basados en fecha, etc...)
+
+file [option] [filename]
+
+Este comando nos brinda informacion de un archivo.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Comandos para dar permisos de propietario en archivos 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+chown
+
+Este comando nos permite cambiar la gerarquia o pertenecia de usuario grupo dentro de un directorio
+
+chmod
+
+Nos permite cambiar los permisos dentro de un directorio.
+
+Nota: El orden de gerarquia de los archivos se calcula en binario siendo 1 (001) ejecutar / 2 (010) escribir / y 4 leer (100). El resto de los permisos son las combinaciones de estos tres 
+
+df-h 
+
+Este comando nos enseña cualen son las unidades de disco duro que tenemos montadas en la computadora.
+
+mv 
+
+Este comando nos permite cambiar de lugar y renombrar directorios.
+
+Nota:
+
+mv [filename] [new_filename] cambia el nombre
+
+mv [filename] [dest-dir] anotamos el destination para mover el file.
+
+cp (copy)
+
+Este comando nos permite mover directorios
+
+Nota: podemos usar un comodin *para hacer que el comand use criterios o pistas para cambiar archivos en especifico.
+
+rm (remove)
+
+Este comando nos permite remover o borrar archivos
+
+Nota:
+
+Podemos usar
+
+/-R para borar un folder  
+
+/ a* para borrar varios files usando un comodin
+
+tar (archivos comprimidos) 
+
+Este comando nos permite manipular la accion de comprimir en linux siendo asi que:
+
+-cvf (nombre de archivo comprimdo) (nombre de archvios que se van a comprimir) comprimir un archivo.
+
+-xvf descomprimir .
+
+-tvf para ver los archivos comprimidos .
+
+-------------------------------------------------------------------------------------------------------------------------
+Comandos utilizados en labs referentes a internet y bash y shell programming
+--------------------------------------------------------------------------------------------------------------------------
+hostname - 
+
+Nos permite ver el nombre del ordenador.
+
+wget (programa)
 
 Este comando nos permite descargar archivos de internet.
 
